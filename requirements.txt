@@ -1,0 +1,19 @@
+streamlit>=1.30.0
+
+# Core NLP
+nltk>=3.8.1
+
+# Numerical processing
+numpy>=1.24.0
+
+# Data handling (optional but safe)
+pandas>=2.0.0
+
+# PDF generation
+reportlab>=4.0.0
+
+# Visualization (if used anywhere)
+matplotlib>=3.7.0
+
+# Text utilities
+regex>=2023.10.3
