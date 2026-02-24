@@ -157,3 +157,33 @@ with tabs[5]:
                 file_name="HCIIS_Report.pdf",
                 mime="application/pdf"
             )
+
+# ---- Footer: Creator Info (Bottom Right) ----
+st.markdown(
+    """
+    <style>
+    .creator-footer {
+        position: fixed;
+        bottom: 10px;
+        right: 15px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 13px;
+        color: #666666;
+        z-index: 100;
+    }
+    .creator-footer img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+    </style>
+
+    <div class="creator-footer">
+        <span>Created by <b>Manjeet Reddy Mora</b></span>
+        <img src="https://avatars.githubusercontent.com/u/194341807?s=400&u=a2331b1e7edcc8077e87eab97957a98b02ecd2aa&v=4">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
