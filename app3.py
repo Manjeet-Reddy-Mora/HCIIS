@@ -8,6 +8,10 @@ from decision_risk import decision_risk
 from info_quality import information_quality
 from pdf_report import generate_pdf_report
 
+import nltk
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+
 # ---------------- Page Setup ----------------
 st.set_page_config(
     page_title="Human-Centered Information Intelligence System",
