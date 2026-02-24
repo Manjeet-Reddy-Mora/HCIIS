@@ -9,7 +9,10 @@ from info_quality import information_quality
 from pdf_report import generate_pdf_report
 
 import nltk
+
+# ---- NLTK downloads for Streamlit Cloud ----
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 nltk.download('stopwords', quiet=True)
 
 # ---------------- Page Setup ----------------
